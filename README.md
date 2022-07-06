@@ -20,9 +20,9 @@ Note that the seed data can also be created in the form of parquet files.
 
 - Open up a Databricks notebook and run the SQL commands found in the `transformations` directory
 - Click on **Workflows** in the sidebar > Delta Live Tables > Create pipeline
-- Select the notebook you just created in the pipeline creation wizard
+- Select the notebook created earlier
 - Select **Triggered** for the pipeline mode and hit **Create**
-- Click **Start** on the pipeline window
+- Click **Start** on top bar of the pipeline window
 
 Databricks would now start creating the pipeline, populate your medallion tables, and generate a dependency graph.
 You can modify the pipeline any time including the schedule and target tables.
