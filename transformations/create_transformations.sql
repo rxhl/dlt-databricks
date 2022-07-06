@@ -80,7 +80,6 @@ CREATE LIVE TABLE cleaned_game_details (
 
 
 -- create gold table
--- create gold table
 CREATE LIVE TABLE final_score_data COMMENT "Aggregate game record data" TBLPROPERTIES ("quality" = "gold") AS
 SELECT
   winner AS team,
